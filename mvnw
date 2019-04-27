@@ -278,6 +278,7 @@ if $cygwin; then
 fi
 
 WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+JAVA_HOME=C:/Program Files/Java/jdk1.8.0_161
 
 exec "$JAVACMD" \
   $MAVEN_OPTS \
