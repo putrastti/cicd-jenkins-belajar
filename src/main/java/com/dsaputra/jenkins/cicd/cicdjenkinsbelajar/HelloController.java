@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String hello() {
-        return "Belajar Create Pipeline with Jenkins CI/CD - 20190429";
+        return "Belajar Create Pipeline with Jenkins CI/CD - 2019";
     }
 }
